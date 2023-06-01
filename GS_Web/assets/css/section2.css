@@ -1,0 +1,45 @@
+.section2{
+    display: flex;
+    flex-direction: column;
+    height:100vh ;
+    align-items: center;
+    border: 5px solid #17C948;
+    padding: 3%;
+    
+}
+
+.solution{
+    display: flex;
+    justify-content: space-around;
+    gap:5%;
+}
+
+.section2 h2{
+    color: #17C948;
+    font-size: 48px;
+}
+
+.section2_device{
+    font-size: 24px;
+}
+
+.section2_device img{
+    width: 600px;
+    height:50vh ;
+}
+
+.section2_software{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.section2_software img{
+    width: 500px;
+    height: 50vh;
+}
+
+.section2_device p, .section2_software p{
+    text-indent: 5%;
+}

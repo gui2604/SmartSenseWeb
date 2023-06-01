@@ -1,0 +1,30 @@
+footer{
+    height: 35vh;
+    padding: 5%;
+    background-color: black;
+    
+}
+
+footer h3{
+    color: #17c948;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.info{
+    gap: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+
+.content{
+    display: flex;
+    gap: 3%;
+}
+
+.content p{
+    color: #17c948;
+    font-size: 38px;
+}

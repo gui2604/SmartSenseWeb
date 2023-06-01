@@ -1,0 +1,27 @@
+.section4{
+    display: flex;
+    padding: 3%;
+    gap:5%;
+    height: 100vh;
+    border: 5px solid #17c948;
+}
+
+.section4_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.section4_text h2{
+    font-size: 48px;
+    color: #17c948;
+}
+
+.section4_text p{
+    font-size: 28px;
+}
+
+.section4 img{
+    border-radius: 20px;
+    width: 60%;
+}

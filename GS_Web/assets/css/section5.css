@@ -1,0 +1,27 @@
+.section5{
+    display: flex;
+    padding: 3%;
+    gap: 5%;
+    height: 100vh;
+}
+
+.section5 img{
+    border-radius: 20px;
+    width: 60%;
+}
+
+.section5_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: center;
+}
+
+.section5_text h2{
+    font-size: 48px;
+    color: #17c948;
+}
+
+.section5_text p{
+    font-size: 28px;
+}

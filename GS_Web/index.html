@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSense</title>
+
+    <!-- Links com CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/section1.css">
+    <link rel="stylesheet" href="./assets/css/section2.css">
+    <link rel="stylesheet" href="./assets/css/section3.css">
+    <link rel="stylesheet" href="./assets/css/section4.css">
+    <link rel="stylesheet" href="./assets/css/section5.css">
+    <link rel="stylesheet" href="./assets/css/section6.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <style>
+        .darkmode {
+            color: white;
+            background-color: black;
+        }
+
+        .date-time {
+            font-size: 24px;
+            font-family: 'Ubuntu Mono', monospace;
+            color: #17c948;
+            background-color: black;
+            text-align: end;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- ALERT DE SEJA BEM VINDO --> <!-- LINK para Formulário -->
+    <main>
+        <header>
+            <h1 class="header_title">Smart Sense</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section_one">Fome no Mundo</a></li>
+                    <li><a href="#section_two">Projeto</a></li>
+                    <li><a href="#section_three">Objetivos</a></li>
+                    <li><a href="#section_four">Público Alvo</a></li>
+                    <li><a href="#section_five">Benefícios</a></li>
+                    <li><a href="#section_six">Dia a dia</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main_text">
+            <h1 class="main_title">Smart Sense</h1>
+            <p>A smart device to control your food storage</p>
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="darkmode()">Darkmode</button>
+            <a href="./login.html" class="btn" target="_blank">Login</a>
+            <a href="./formulario.html" class="btn" target="_blank">Formulário</a>
+        </div>
+    </main>
+    <div class="main_image"></div>
+
+    <!-- O problema que solução irá resolver --> <!-- BUTTON DARKMODE HERE -->
+    <section class="section1" id="section_one">
+        <div class="hungry_img"></div>
+        <div class="section1_text">
+            <h2>O problema da Fome no Mundo</h2>
+            <p>Sabemos que a fome que existe no mundo não é causada pela falta de produção de alimentos, mas sim devido
+                ao que
+                ocorre entre a produção do alimento e sua chegada ao consumidor.</p>
+            <p>Grande parte desse problema reside na logística, sua má administração gera prejuízos e perdas, causado o
+                desperdício desnecessário de produtos alimentícios.</p>
+        </div>
+    </section>
+
+    <!-- Qual a tecnologia que pretendem utilizar  -->
+    <section class="section2" id="section_two">
+        <h2>A Solução SmartSense</h2>
+        <div class="solution">
+            <div class="section2_device">
+                <img src="./assets/images/SmartSenseJam.png" alt="imagem do dispositivo SmartSense">
+                <p>Um dispositivo capaz de monitorar os estoques de alimento, medindo precisamente condições ambiente
+                    como
+                    luminosidade, temperatura e umidade atualizando-os em tempo real. </p>
+            </div>
+            <div class="section2_software">
+                <img src="./assets/images/SmarSenseSoftware.png" alt="imagem do logo do software SmartSense">
+                <p>O software recebe esses dados e o funcionário da empresa poderá acessar os dados de qualquer
+                    dispositivo,
+                    permitindo um melhor controle dos estoques e portanto, melhores diretrizes de atuação para mitigar
+                    desperdícios.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quais os objetivos pretendem alcançar -->
+    <section class="section3" id="section_three">
+        <img src="./assets/images/armazem3.png" alt="imagem de armazém de alimentos">
+        <div class="section3_text">
+            <h2>Objetivos do Projeto</h2>
+            <p>O objetivo da SmartSense é fornecer dados mais precisos em tempo real a respeito dos estoques de
+                alimentos das
+                empresas, com isso, um controle mais eficiente dos produtos alimentícios reduzirá o desperdício
+                desnecessarário
+                de alimentos.</p>
+        </div>
+    </section>
+
+    <!-- Qual o público que será impactado - -->
+    <section class="section4" id="section_four">
+        <div class="section4_text">
+            <h2>Público Impactado</h2>
+            <p>O público alvo da SmartSense são todas as grandes ou microempresas que trabalham com estoque de
+                alimentos,
+                mas também, devido à acessibilidade e facilidade de produto, qualquer pessoa pode adquirir essa solução
+                e
+                utilizá-la em ambiente domiciliar.</p>
+            <p>Indiretamente, com a redução dos desperdícios de alimento causado por essa solução, é previsto uma
+                redução
+                significativa nos desperdícios, e portanto, uma maior chegada dos alimentos aos consumidores.</p>
+        </div>
+        <img src="./assets/images/food.jpg" alt="foto de caixa de vegetais e verduras">
+    </section>
+
+    <!-- Quais os benefícios oferecidos pela solução - -->
+    <section class="section5" id="section_five">
+        <img src="./assets/images/despensa.jpg" alt="imagem de despensa caseira de alimentos">
+        <div class="section5_text">
+            <h2>Benefícios da SmartSense</h2>
+            <p>Para usos industriais e empresariais, as organizações terão uma redução do prejuízo econômico devido à
+                mitigação
+                das perdas na logística. Socialmente, os alimentos chegarão com maior abundância aos consumidores,
+                reduzindo
+                custos e aumentando a acessibilidade populacional aos alimentos.</p>
+        </div>
+    </section>
+
+    <!-- Como essa solução pode ajudar no dia a dia das pessoas que irão utilizá-la -->
+    <section class="section6" id="section_six">
+        <h2>Dia a Dia da SmartSense</h2>
+        <!-- CARROSSEL DE IMAGENS -->
+        <img id="image1">
+        <p>Para usos caseiros, pessoas poderão ter um melhor controle sobre seus alimentos, com dados exibidos em um
+            display, as pessoas terão uma interface informativa que as ajudarão a administrar melhor a durabilidade
+            dos
+            alimentos, favorecendo a redução de desperdício de alimentos nos ambientes domiciliares.</p>
+    </section>
+
+    <!-- informações de contato --> <!-- DATA JAVASCRIPT -->
+    <footer>
+        <h3>Contato</h3>
+        <div class="info">
+            <div class="content">
+                <img src="./assets/images/local.png" alt="ícone de localização">
+                <p>São Paulo, SP</p>
+            </div>
+            <div class="content">
+                <img src="./assets/images/telefone.png" alt="ícone de telefone">
+                <p>(11) 94279-2555</p>
+            </div>
+            <div class="content">
+                <img src="./assets/images/carta.png" alt="ícone de carta e-mail">
+                <p>SmartSense@smartsense.com.br</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

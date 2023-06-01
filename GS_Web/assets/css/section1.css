@@ -1,0 +1,38 @@
+.section1{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    justify-content: space-around;
+}
+
+.hungry_img{
+    width: 40%;
+    height: 70%;
+    background-image: url(../images/hungry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.section1_text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    justify-self: flex-end;
+    gap: 10%;
+}
+.section1_text h2{
+    font-size: 48px;
+    color: red;
+}
+
+.section1_text p{
+    font-size: 24px;
+    text-indent: 5%;
+}
